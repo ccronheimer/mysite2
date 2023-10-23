@@ -1,22 +1,27 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
-const projects = [
-  {
-    name: 'OSAP Interest Calculator',
-    description: 'A calculator to determine the interest accumulation on your OSAP loan.',
-    link: 'https://www.osapinterest.ca/'
-  },
-  {
-    name: 'Rolling Acres Golf Club',
-    description: 'A 1 to 1 of Rolling Acres Golf Club built for GSPRO golf simulators.',
-    link: 'https://www.youtube.com/watch?v=8ACFHaqFfXw'
-  },
-  {
-    name: 'Codemates',
-    description: 'Live collaborative code editor.',
-    link: 'https://github.com/ccronheimer/codemates'
-  },
+const projects = [{
+  name: 'GreenBeam',
+  description: 'A pocket rangefinder for golfers.',
+  link: 'https://apps.apple.com/us/app/greenbeam/id6470087916'
+},
+
+{
+  name: 'Rolling Acres Golf Club',
+  description: 'A 1 to 1 of Rolling Acres Golf Club built for GSPRO golf simulators.',
+  link: 'https://www.youtube.com/watch?v=8ACFHaqFfXw'
+},
+{
+  name: 'OSAP Interest Calculator',
+  description: 'A calculator to determine the interest accumulation on your OSAP loan.',
+  link: 'https://www.osapinterest.ca/'
+},
+{
+  name: 'Codemates',
+  description: 'Live collaborative code editor.',
+  link: 'https://github.com/ccronheimer/codemates'
+},
 ];
 
 export default function Home() {
